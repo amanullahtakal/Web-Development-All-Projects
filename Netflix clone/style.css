@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'poopins', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("Images/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    position: relative;
+
+}
+
+.main .box {
+    background-color: black;
+    height: 644px;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    opacity: 0.64;
+}
+
+nav {
+    display: flex;
+    max-width: 80vw;
+    padding-top: 10px;
+    margin: auto;
+    position: relative;
+    height: 39px;
+    justify-content: space-between;
+}
+
+nav span {
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.wc {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    z-index: 10;
+    height: 100%;
+    text-align: center;
+}
+
+.wc>:nth-child(1) {
+    font-size: 46px;
+    font-weight: 600;
+}
+
+.wc> :nth-child(2) {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.wc> :nth-child(3) {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.btn {
+    padding: 6px 20px;
+    font-size: 16px;
+    font-family: "Poppins";
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-s {
+    background-color: rgba(22, 22, 22, 0.23);
+    color: white;
+}
+
+.btn-r {
+    background-color: red;
+    color: white;
+}
+
+.line {
+    height: 4px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+    bottom: 49px;
+}
+
+.line2 {
+    height: 4px;
+    background-color: rgb(46, 44, 44);
+    z-index: 20;
+    bottom: 49px;
+}
+
+.wc input {
+    padding: 7px 101px 8px 14px;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    width: 99vw;
+    height: 500px;
+    gap: 12px;
+}
+
+.first h2 {
+    color: white;
+    margin-left: 139px;
+}
+
+.redline {
+    width: 86vw;
+    background-color: red;
+    height: 1px;
+    margin: auto;
+}
+
+.first .images {
+    height: 200px;
+    display: flex;
+    width: 80vw;
+    gap: 32px;
+    height: 380px;
+    margin: auto;
+}
+
+
+.images img {
+    border: 1.5px solid #3a3936;
+    border-radius: 9px;
+    transition: transform 0.3s ease;
+
+
+}
+
+.images img:hover {
+    opacity: 0.89;
+    border: 1.5px solid rgb(153, 9, 9);
+    border-radius: 12px;
+    transform: scale(1.1);
+}
+
+.second {
+    margin-top: 68px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 99vw;
+    height: 800px;
+    gap: 7px;
+    padding-top: 6px;
+
+
+}
+
+.cards {
+    display: flex;
+    width: 80vw;
+    height: 500px;
+    flex-direction: row;
+    margin: auto;
+    gap: 39px;
+}
+
+.cards div {
+    display: flex;
+    padding: 21px;
+    flex-direction: column;
+    gap: 30px;
+    height: 370px;
+    width: 650px;
+    border: 2px solid #1f1e24;
+    border-radius: 7px;
+    background: radial-gradient(#36368da3, #3e0d0d5c);
+    transition: transform 0.33s ease;
+}
+
+.cards div:hover {
+    transform: scale(1.1);
+}
+
+
+.cards div span {
+    font-size: 18px;
+}
+
+.second .th {
+    margin-left: 146px;
+    padding-top: 61px;
+    padding-bottom: 30px;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    width: 99vw;
+    margin-top: 12px;
+    color: white;
+    gap: 12px;
+
+}
+
+.third .lh {
+    font-size: 40px;
+    text-align: center;
+}
+
+.lists {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 800px;
+    gap: 15px;
+    margin: auto;
+}
+
+.lists div {
+    display: flex;
+    padding: 25px;
+    background-color: #2d2d2d;
+    justify-content: space-between;
+    transition: transform 0.5s ease;
+}
+.lists div:hover{
+    background-color: #1f1e24;
+    color: white;
+}
+
+
+.lists div span {
+    font-size: 32px;
+    font-family: "Poppins";
+}
